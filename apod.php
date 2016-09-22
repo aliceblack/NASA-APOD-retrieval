@@ -9,11 +9,11 @@ $explanation=$update["explanation"];
 $url=$update["url"];
 
 //GET "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY";
-$titolo=$_GET["title"];
-echo $titolo;
+//$titolo=$_GET["title"];
+//echo $titolo;
 
-echo $title;
-echo $explanation;
+echo $title \r\n;
+echo $explanation \r\n;
 //header('Content-type: image/jpeg');
 //readfile($url);
 
