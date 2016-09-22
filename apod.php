@@ -13,7 +13,7 @@ echo $titolo;
 
 echo $title;
 echo $explanation;
-header('Content-type: image/jpeg');
-readfile($url);
+//header('Content-type: image/jpeg');
+//readfile($url);
 
 ?>
