@@ -12,8 +12,8 @@ $url=$update["url"];
 //$titolo=$_GET["title"];
 //echo $titolo;
 
-echo $title; echo "\r\n";
-echo $explanation; echo "\r\n";
+echo "<p>".$title."</pp>";
+echo "<p>".$explanation."</p>";
 //header('Content-type: image/jpeg');
 //readfile($url);
 
