@@ -13,7 +13,5 @@ echo "<p>".$data."</pp>";
 echo "<p>".$title."</pp>";
 echo "<p>".$explanation."</p>";
 echo '<img src="'.$url.'" alt="apod today image">';
-//header('Content-type: image/jpeg');
-//readfile($url);
 
 ?>
