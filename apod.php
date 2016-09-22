@@ -7,11 +7,9 @@ $update=json_decode($update, TRUE);
 $title=$update["title"];
 $explanation=$update["explanation"];
 $url=$update["url"];
+$data=$update["date"];
 
-//GET "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY";
-//$titolo=$_GET["title"];
-//echo $titolo;
-
+echo "<p>".$data."</pp>";
 echo "<p>".$title."</pp>";
 echo "<p>".$explanation."</p>";
 //header('Content-type: image/jpeg');
