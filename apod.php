@@ -7,6 +7,10 @@ $title=$update["title"];
 $explanation=$update["explanation"];
 $url=$update["url"];
 
+//GET "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY";
+$titolo=$_GET["title"];
+echo $titolo;
+
 echo $title;
 echo $explanation;
 header('Content-type: image/jpeg');
