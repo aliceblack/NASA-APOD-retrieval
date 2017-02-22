@@ -1,5 +1,5 @@
 <?php
-echo "Stampa immagine apod nasa";
+echo "Astronomy Picture of the Day!";
 $website="https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY";
 //$update=file_get_contents("php://input");
 $update=file_get_contents("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY");
