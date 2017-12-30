@@ -9,7 +9,7 @@ $explanation=$update["explanation"];
 $url=$update["url"];
 $data=$update["date"];
 
-echo "<style>img{display: block; margin: auto;}</style>"
+echo "<style>img{display: block; margin: auto;}</style>";
 echo "<p>".$data."</pp>";
 echo "<p>".$title."</pp>";
 echo "<p>".$explanation."</p>";
