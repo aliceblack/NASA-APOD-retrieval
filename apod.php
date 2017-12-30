@@ -1,7 +1,7 @@
 <?php
-echo "<style>body{font-family: Arial; background: #205BA7; color: #FEFEFE;} img{display: block; margin: auto;} p{text-align: center;}</style>";
+echo "<style>body{font-family: Arial; background: #205BA7; color: #FEFEFE; font-size: 24px;} img{display: block; margin: auto;} p{text-align: center;}</style>";
 
-echo "Astronomy Picture of the Day!";
+echo "<p>Astronomy Picture of the Day!</p>";
 $website="https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY";
 //$update=file_get_contents("php://input");
 $update=file_get_contents("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY");
