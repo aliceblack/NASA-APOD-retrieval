@@ -1,4 +1,6 @@
 <?php
+echo "<style>body{font-family: Arial; background: #205BA7; color: #FEFEFE;} img{display: block; margin: auto;} p{text-align: center;}</style>";
+
 echo "Astronomy Picture of the Day!";
 $website="https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY";
 //$update=file_get_contents("php://input");
@@ -9,7 +11,6 @@ $explanation=$update["explanation"];
 $url=$update["url"];
 $data=$update["date"];
 
-echo "<style>body{font-family: Arial;} img{display: block; margin: auto;} p{text-align: center;}</style>";
 echo "<p>".$data."</pp>";
 echo "<p>".$title."</pp>";
 echo "<p>".$explanation."</p>";
