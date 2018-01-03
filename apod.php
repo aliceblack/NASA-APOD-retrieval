@@ -9,9 +9,9 @@ $update=json_decode($update, TRUE);
 $title=$update["title"];
 $explanation=$update["explanation"];
 $url=$update["url"];
-$data=$update["date"];
+$date=$update["date"];
 
-echo "<p>".$data."</pp>";
+echo "<p>".$date."</pp>";
 echo "<p>".$title."</pp>";
 echo "<p>".$explanation."</p>";
 echo '<img src="'.$url.'" alt="apod today image">';
